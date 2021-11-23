@@ -122,7 +122,9 @@ it('intercept command log', () => {
 
 ## Application Under Test <E2EOnlyBadge />
 
-The righthand side of the Test Runner is used to display the Application Under
+In
+[End-to-End testing](/guides/overview/choosing-testing-type#What-is-End-to-end-Testing),
+the righthand side of the Test Runner is used to display the Application Under
 Test (AUT): the application that was navigated to using a
 [`cy.visit()`](/api/commands/visit) or any subsequent routing calls made from
 the visited application.
